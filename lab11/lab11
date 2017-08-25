@@ -1,0 +1,7 @@
+The player is assigned 10 points
+Ask the player for two numbers for the computer to choose between
+            - The computer now chooses a random number between those two numbers
+Ask the player to guess betweenthose two numbers
+    - If the guess is too high, subtract one point and print "Lower"
+    - If the guess is too low subract one point and print "Higher"
+            - Repeat untill score is 0 or the guess matches chosen number.
