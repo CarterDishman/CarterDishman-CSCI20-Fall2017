@@ -17,7 +17,8 @@ int main()
 
    int totPop = curPop + (netGain * yrsFromnow);
 
-    cout << "in " << yrsFromnow << "years the population of the US will be " << totPop;
+    cout << "in " << yrsFromnow << " years the population of the US will be " << totPop;
+    
     
     
     
