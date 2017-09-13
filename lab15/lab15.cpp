@@ -90,10 +90,10 @@
     
     
     
-cout << "A vacation is when you take a trip to some " << madLibs1 << " place with your " << madLibs2 << "family." << endl; 
-cout << "Usually you go to some place that is near a/an" << madLibs3 << "or up on a/an" << madLibs4 <<"."<< endl;
-cout << "A good vacation place is one where you can ride" << madLibs5 << "or play" << madLibs6 << "or go hunting for "<< madLibs7 << "." << endl;
-cout << "I like to spend my time" << madLibs8 << "or" << madLibs9 << "." << endl;
+cout << "A vacation is when you take a trip to some " << madLibs1 << " place with your " << madLibs2 << " family." << endl; 
+cout << "Usually you go to some place that is near a/an " << madLibs3 << " or up on a/an " << madLibs4 <<"."<< endl;
+cout << "A good vacation place is one where you can ride " << madLibs5 << " or play " << madLibs6 << " or go hunting for "<< madLibs7 << "." << endl;
+cout << "I like to spend my time " << madLibs8 << " or " << madLibs9 << "." << endl;
 cout << "When parents go on a vacation, they spend their time eating three " << madLibs10 << " a day, and fathers play golf, and mothers sit around " << madLibs11 << "." << endl;
 cout << "Last summer, my little brother fell in a/an " << madLibs12 << " and got poison " << madLibs13 << "all over his "<< madLibs14 << "." << endl; 
 cout << "My family is going to go to (the) " << madLibs15 << ", and I will practice " << madLibs16 << "." << endl;
