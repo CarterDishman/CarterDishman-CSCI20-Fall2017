@@ -46,3 +46,22 @@ int main()
     return 0;
     
 }
+
+
+//Test #1
+//The jet is going 77.006 meters per second (m/s) at takeoff.
+//The Jet took approx 1.195 seconds to reach full speed.
+
+
+//Test #2
+//The Jet is going 77.006 meters Per second (m/s).
+//The Jet took approx 9.0902 seconds to reach full speed.
+
+//Test #3
+//The Jet is going 55.4 meters Per second (m/s).
+//The Jet took approx 1.08303 seconds to reach full speed.
+
+//Test #4
+//The Jet is going 27.7 meters Per second (m/s).
+//The Jet took approx 25.2708 seconds to reach full speed.
+
