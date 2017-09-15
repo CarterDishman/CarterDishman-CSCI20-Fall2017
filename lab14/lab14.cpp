@@ -9,6 +9,8 @@
  {       
   
   cout.setf(ios::fixed);
+    
+    
     int numPen = 0;
     int numNic = 0;
     int numDime = 0;
