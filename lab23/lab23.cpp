@@ -3,12 +3,12 @@
  
  #include <iostream> 
  #include <cmath>
- #include <ctime>
+ #include <ctime>    //Use this so we can see randomness with time
  using namespace std;
  
  
  
- void swap(int &min_num, int &max_num){
+ void swap(int &min_num, int &max_num){     //If the numbers are inputted in the wrong order, this swaps them
     int s = 0;
     
     if (min_num > max_num){
@@ -22,7 +22,7 @@
 }
 
 
-void randNum(int min_num, int max_num)
+void randNum(int min_num, int max_num)                    //Gens a random number and calls our swap function
 {
     swap( min_num, max_num);
     srand(time(0));                                      
@@ -42,13 +42,13 @@ int main()
     int high  = 0;
     
     
-    cout << "Enter your lowest number: ";
-    cin >> low;
-    cout << "Enter your highest number: ";
-    cin >> high;
+    cout << "Enter your lowest number: ";                   //Asks user for higest number
+    cin >> low;                                             //Stores num as var
+    cout << "Enter your highest number: ";                  //Asks user for higest number
+    cin >> high;                                            //Stores num as var
     
     
-    randNum(low,high);                                           //Calls the function from above
+    randNum(low,high);                                           //Calls the random number function from above
 
  
      return 0;
