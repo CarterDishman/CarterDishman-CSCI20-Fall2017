@@ -2,24 +2,24 @@
 //Created On: 10/3/2017      
  
  #include <iostream> 
- #include <string>
+ #include <string>    //Allows us to use string
  #include <cmath>
 
  using namespace std;
  
- class Book {
-     public:
-     void SetTitle(string BookTitle);
+ class Book {       
+     public:                                //All of the functions Gets and Sets I will need for this 
+     void SetTitle(string BookTitle);        
      string GetTitle();
      void SetAuthor(string BookAuthor);
      string GetAuthor();
-     void SetCRY(int BookCRY);
+     void SetCRY(int BookCRY);       //CRY = copyright year
      int GetCRY();
      void Print();
      
      
-     
-     private:
+       
+     private:               //My Three vars 
      string Author;
      string  Title;
      int     CRY;
@@ -27,9 +27,9 @@
  
  
  
- void Book::Print() {
+ void Book::Print() {   //Print fucntion using the Gets from above
     cout << GetTitle() << " by "  << GetAuthor() << ", published in the year " << GetCRY() << endl;
-    cout << endl;
+    cout << endl;       //Extra line for spacing
 }
  
  
@@ -37,14 +37,14 @@ int main() {
  
  
 
-     Book book1, book2, book3, book4, book5;
+     Book book1, book2, book3, book4, book5;   //Declares the five books I will be printing
      
-     book1.SetTitle("1984");
-     book1.SetAuthor("George Orwell");
+     book1.SetTitle("1984");             //Sets the title, author and copyright year
+     book1.SetAuthor("George Orwell");   // All sets like this follow the same structure
      book1.SetCRY(1949);
      
      
-     book2.SetTitle("To Kill a Mockingbird");
+     book2.SetTitle("To Kill a Mockingbird");  
      book2.SetAuthor("Harper Lee");
      book2.SetCRY(1960);
      
@@ -65,7 +65,7 @@ int main() {
      
      
      
-     book1.Print();
+     book1.Print();   //Prints books 1-5, one after another
      book2.Print();
      book3.Print();
      book4.Print();
@@ -75,7 +75,7 @@ int main() {
      return 0;
  }
  
- void Book::SetTitle(string BookTitle) {
+ /*void Book::SetTitle(string BookTitle) {        //
      Title = BookTitle;
      return;
  }
@@ -93,7 +93,7 @@ int main() {
  string Book::GetAuthor() {
      return Author;
  }
- 
+ */
  
   string Book::GetTitle() {
      return Title;
