@@ -75,7 +75,7 @@ int main() {
      return 0;
  }
  
- /*void Book::SetTitle(string BookTitle) {        //
+ void Book::SetTitle(string BookTitle) {    
      Title = BookTitle;
      return;
  }
@@ -93,7 +93,7 @@ int main() {
  string Book::GetAuthor() {
      return Author;
  }
- */
+ 
  
   string Book::GetTitle() {
      return Title;
@@ -108,7 +108,8 @@ int main() {
  
  
  
- /*1984 by George Orwell, published in the year 1949
+ /*Output:
+1984 by George Orwell, published in the year 1949
 
 
 To Kill a Mockingbird by Harper Lee, published in the year 1960
