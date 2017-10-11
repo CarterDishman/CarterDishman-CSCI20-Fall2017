@@ -115,7 +115,7 @@ void Tax::Print()
 int main(){
  
  
- cout.setf(ios::fixed); //Sets decimal percicion to 2 places
+ cout.setf(ios::fixed);                     //Sets decimal percicion to 2 places
  
  
  double price;
