@@ -1,5 +1,5 @@
-//Created By 
-//Created On 
+//Created By Carter Dishman
+//Created On 10/10/17
 #include <iostream>
 #include <string>
 
@@ -47,14 +47,14 @@ int main () //int main function that takes user input then calls the PriceCheck 
 }
 
 
-//________________________
+//________AT&T Unlimited Choice Plan________________ 
 int ATTUnlimitedChoice (int phones, int tablets, int gigs)  
 {
     int total_price = 0;
     //Calculations for phone lines
     if (phones == 1)
     {
-        total_price += 60;
+        total_price += 60;   //I was shown how to use += and decided to use it for simplicity's sake
     }
     else if (phones == 2)
     {
@@ -100,7 +100,7 @@ int ATTUnlimitedChoice (int phones, int tablets, int gigs)
     return total_price;
 }
 
-//_____
+//________Verision Unlimited________________
 
 int VerizonUnlimited (int phones, int tablets)
 {
@@ -121,7 +121,7 @@ int VerizonUnlimited (int phones, int tablets)
     return total_price;
 }
 
-//__
+//________Sprint Unlimited________________
 
 int SprintUnlimited (int phones)
 {
@@ -145,7 +145,7 @@ int SprintUnlimited (int phones)
 }
 
 
-//__
+//________Sprint 2GB________________
 int Sprint2GB (int phones)
 {
     int total_price = phones * 40;
