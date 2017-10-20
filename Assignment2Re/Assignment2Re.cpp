@@ -1,6 +1,9 @@
 //Created By: Carter Dishman   
 //Created On: 10/4/2017      
 //This program takes a price of an item and gives all the taxes for multiple states, counties, and cities.
+
+//**This program was a colaboration between myself and Zachary Rust.**
+ 
  
  #include <iostream> 
  #include <iomanip>                         //this PPD will be used to set decimal percision to 2 places.
