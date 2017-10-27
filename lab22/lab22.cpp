@@ -9,7 +9,7 @@
 void randNum()
 {
     srand(time(0));                                      //This part of the code seeds the random numner in time
-    int randNum = (rand()%101);                          //This line sets the cap number to 100
+    int randNum = (rand()%6)+1;                          //This line sets the cap number to 100
     cout << "Your random number is: " << randNum;        //Thi line outputs the random number
     
 }
