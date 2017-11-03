@@ -11,9 +11,14 @@ cout << "Please enter a character: ";
 cin  >> ch;
 
 
+<<<<<<< HEAD
 while (ch != '-')
     {
 
+=======
+    
+if (ch > '0'){
+>>>>>>> 0c0a006a495afa10d9c688cbc05b51a96f8fdd22
     if (ch >= 'A' && ch <= 'Z') {
         cout << "Yes, that is a uppercase letter." << endl;
     }
@@ -25,6 +30,7 @@ while (ch != '-')
     else {
         cout << "Not a letter" << endl;
     }
+<<<<<<< HEAD
 
     
     cout << "Ente a new value, or you can enter \'-1\' to exit the program." << endl;
@@ -35,3 +41,15 @@ while (ch != '-')
 }
 
 
+=======
+    
+}
+
+    if (ch < '0'){
+        cout << "Try again." << endl;
+    }
+
+        return 0;
+    
+}
+>>>>>>> 0c0a006a495afa10d9c688cbc05b51a96f8fdd22
