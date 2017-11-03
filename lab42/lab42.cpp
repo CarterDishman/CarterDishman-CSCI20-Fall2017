@@ -69,7 +69,7 @@ and the total cost of their purchases.  Do not allow you inventory to go below 0
         if (numfoodsel[i] > 1){
             numfoodsel[i] = numfoodsel[i] * Price[i];
         }
-         
+        cout << num 
     }
          for (int i = 0; i < 10; ++i){
          cartPrice = cartPrice + numfoodsel[i];
@@ -86,3 +86,4 @@ and the total cost of their purchases.  Do not allow you inventory to go below 0
          
      }
      
+TEST
