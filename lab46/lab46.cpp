@@ -201,7 +201,7 @@ for(int i = 0; i < 6; ++i) {            //adding up the GPA numbers
 
 
 
-GPA1 = GPA1/ClassHours1[0];  //calcuates the GPA by dividing GPA from above by credit hours
+GPA1 = GPA1/ClassHours1[0];  //calcuates the true GPA by dividing GPA from above by credit hours
 GPA2 = GPA2/ClassHours2[0];
 GPA3 = GPA3/ClassHours3[0];
 
