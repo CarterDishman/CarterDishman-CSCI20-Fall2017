@@ -30,7 +30,7 @@ class Grades {
     double points;
 
   public: 
-    void KeySet(char k[],string var,string cond,string random){
+    void KeySet(char k[],string var,string cond,string random){ // Sets the key in the class equal to the key in the text file with variables in the int main.
         for(int i = 0;i < 36;i+=2) {
             Key[i] = k[i];
         }
@@ -39,7 +39,7 @@ class Grades {
         KeyCond = cond;
     }
     
-    void SetCheckAns(char Answer[],string v, string c, string r);
+    void SetCheckAns(char Answer[],string v, string c, string r); // Compares answers in students answers to the key and gives points accordingly.
     
      
     
@@ -64,16 +64,16 @@ int main() {
     
 
   
-    ifstream inKey;
+    ifstream inKey;  //Pulls info from the key.txt file
   
-    ifstream inAnswers;
+    ifstream inAnswers;  //Pulls students answers from answers.txt
   
-    ofstream outPoints;
+    ofstream outPoints;  //Pushes final percents to output.txt
   
-    char Key[36];
-    string KeyVar;
-    string KeyRandom;
-    string KeyCond;
+    char Key[36];       //The array that holds all of the array information
+    string KeyVar;      //Holds the answer to the 'Variable' question
+    string KeyRandom;   //Holds the answer to the 'Random' question
+    string KeyCond;     //Holds the answer to the 'Condition' question
     
     string FName1;      //First Name of the 1st student
     string LName1;      //Last Name of the 1st student
@@ -81,7 +81,7 @@ int main() {
     string Var1;        //The answer to the 'variable' question
     string Random1;     //The answer to the 'random' question
     string Cond1;       //The answer to the 'condition' question
-    double Points1; //The total amount of points scored on the test
+    double Points1;     //The total amount of points scored on the test
     
     string FName2;
     string LName2;
@@ -296,6 +296,6 @@ void Grades::SetCheckAns(char Answer[],string v, string c, string r){
       }
       
       
-      points = ((points/21)) * 100;
+      points = ((points/21)) * 100; //divides the # of correct answers by 21 then mult's by 100 to get a percent. 
       
 }
