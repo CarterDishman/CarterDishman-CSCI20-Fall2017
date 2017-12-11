@@ -133,7 +133,7 @@ int main() {
         inAnswers >> Answers1[36];
     }
     
-    inAnswers >> Var1;//pulls the students answer for the 'variable' question
+    inAnswers >> Var1;              //pulls the students answer for the 'variable' question
     
     inAnswers >> Random1;           //pulls the students answer for the 'candom' question
     
